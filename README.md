@@ -1,7 +1,7 @@
 SPH WASM
 ========
 
-WebAssembly implementation of (SPH)[https://github.com/schuermannator/sph].
+WebAssembly implementation of [SPH](https://github.com/schuermannator/sph).
 
 Generated from [`wasm-pack-template`][template].
 
