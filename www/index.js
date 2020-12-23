@@ -19,7 +19,7 @@ ctx.transform(1, 0, 0, -1, 0, canvas.height)
 
 const drawParticle = (x, y) => {
     ctx.beginPath();
-    ctx.fillStyle = "blue";
+    ctx.fillStyle = "#87edff";
     ctx.arc(x, y, radius, 0, Math.PI*2, true); 
     ctx.closePath();
     ctx.fill();
