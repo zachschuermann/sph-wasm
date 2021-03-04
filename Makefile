@@ -3,6 +3,6 @@ all: build
 build:
 	cargo install wasm-pack
 	wasm-pack build
-	pushd www
+	cd www
 	npm install
 	npm run build
